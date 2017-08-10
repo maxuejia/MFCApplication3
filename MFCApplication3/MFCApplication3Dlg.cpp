@@ -66,6 +66,7 @@ BEGIN_MESSAGE_MAP(CMFCApplication3Dlg, CDialogEx)
 	ON_WM_QUERYDRAGICON()
 	ON_BN_CLICKED(IDC_BUTTON1, &CMFCApplication3Dlg::OnBnClickedButton1)
 	ON_BN_CLICKED(IDC_BUTTON2, &CMFCApplication3Dlg::OnBnClickedButton2)
+	ON_BN_CLICKED(IDC_BUTTON3, &CMFCApplication3Dlg::OnBnClickedButton3)
 END_MESSAGE_MAP()
 
 
@@ -165,6 +166,12 @@ void CMFCApplication3Dlg::OnBnClickedButton1()
 
 
 void CMFCApplication3Dlg::OnBnClickedButton2()
+{
+	// TODO: 在此添加控件通知处理程序代码
+}
+
+
+void CMFCApplication3Dlg::OnBnClickedButton3()
 {
 	// TODO: 在此添加控件通知处理程序代码
 }
